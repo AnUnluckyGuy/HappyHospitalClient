@@ -22,6 +22,8 @@ public class Entity {
             image = Image.PLAYER.getImage(state);
         } else if (name.equals("opponent")) {
             image = Image.OPPONENT.getImage(state);
+        } else if (nname.equals("NPC")) {
+            image = Image.NPC.getImage(state);
         }
     }
 
